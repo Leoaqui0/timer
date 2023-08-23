@@ -1,0 +1,19 @@
+*{
+    font-family: monospace;
+   background-color: rgb(237, 253, 252)
+}
+
+h2{
+    text-align: center;
+}
+button{
+    border: solid 1px; 
+    border-radius: 10px;
+}
+
+.principal{
+    margin-right: 20px;
+    text-align: right;
+    font-family: monospace;
+    font-size: 20px;
+}

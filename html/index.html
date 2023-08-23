@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/conometro.css">
+    <title>Quiz</title>
+</head>
+<body>
+    
+    <h2>Texte seu conhecimento em matemática</h2>
+    <main>
+      <div class="content">
+        <span class="spnQtd"></span>
+        <span class="question"></span>
+        <div class="answers"></div>
+      </div>
+      <div class="finish">
+        <span></span>
+        <button>Reiniciar</button>
+      </div>
+    </main> 
+    <br><br> 
+    
+    <!-- parte do conômetro -->
+    <div class="container">
+        
+        <div class="principal">
+          <p class="tempo">
+            <span class="minutos">00</span>:<span class="segundos">00</span>:<span class="milissegundos">00</span>
+          </p>
+          <div id="conometro">
+            <button onclick="iniciar()" class="iniciar">INICIAR</button>
+            <button onclick="parar()" class="parar">PARAR</button>
+            <button onclick="resetar()" class="resetar">Reiniciar</button>
+          </div>
+        </div>
+      </div>
+
+  
+    <script src="../js/script.js" type="module"></script>
+    <script src="../js/conometro.js"></script>
+</body>
+</html>
